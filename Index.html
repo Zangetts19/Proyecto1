@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Página de Desarrollo Web</title>
+        <meta charset="utf-8">
+        <!--Usando la etiqueta <meta> y el atributo charset, al escribir "utf-8" estamos definiendo la codificacion universal, lo usariamos para para arreglar errores que causa el navegador 
+        al no reconocer x caracter especial, como por ejemplo acentos-->
+        <meta name="keywords" content="Aprender,Programación,Desarollo Web">
+        <!--Otro ejemplo de la etiqueta <meta> seria:
+        <meta name="keywords" content="Aprender,Programación,Desarollo Web">
+        (En "content" lo que se hace es poner todas las palabras clave relacionadas a nuestra pagina para tener un buen CEO, posicionamiento en los navegadores cuando busquen algo relacionado
+        a nuestra pagina web)
+        -->
+        <meta name="description" content="En esta pagina vas a poder encontrar toda la informacion que necesitas para aprender acerca del desarrollo web">
+        <!--En este caso el content del atriburo description es una breve descripcion sobre nuestra pagina web, lo ideal seria entre 70 a 140 caracteres-->
+        <meta name="author" content="Pedro Garcia">
+        <!--el atributo author lo usamos para simplemente indicar quien es el autor de la pagina-->
+        <meta name="copyright" content="WebWorld Inc.">
+        <!--Asi podemos indicar si nuestra empresa este registrada y tengamos copyright es informar que lo tenemos-->
+        <meta name="roots" content="index">
+        <!--Si ponemos index le decimos a los buscadores que pueden indexar nuestra pagina, o sea que se pueda encontrar. Si ponemos "noindex" le hacemos saber a los navegadores que no queremos
+        que muestren nuestra pagina, para que los usuarios no la puedan encontrar-->
+        
+        <link rel="icon" href="icono.ico">
+        <!-- Con la etiqueta <Link> podemos darle un icono a la pestaña de nuestra pagina web, en el href debemos poner el nombre de nuestra imagen y debe estar en formato .ico-->
+
+    </head>
+    <body>
+        <h1> <b>Presentando la página: </b> El desarrollo Web </h1>
+        <h2>¿Que es el desarrollo web?</h2>
+
+        <p> <small> Desarrollo web es un término que define la creación de sitios web para Internet o una intranet. Para conseguirlo se hace uso de tecnologías de software 
+            del lado del servidor y del cliente que involucran una combinación de procesos de base de datos con el uso de un navegador web a fin de realizar determinadas tareas
+             o mostrar información. <br>Tradicionalmente un software departamental o incluso un ambicioso proyecto corporativo de gran envergadura es desarrollado en forma stand
+            alone, es decir, usando lenguajes ya sea compilados(C, C++, Delphi), semicompilados(.NET, Mono, Java), o interpretados (Python, PHP) para crear tanto la funcionalidad
+            como toda la interfaz de los usuarios, pero cabe perfectamente un desarrollo orientado a web para dichos propósitos, siendo más homogéneo y multiplataforma, y 
+            dependiendo de las tecnologías utilizadas, más rápido y robusto tanto para diseñar, implementar y probar, como para su uso una vez terminado. <br>Puedes hacer 
+            <a href="https://www.google.com" target="_blank"> Click Aqui </a> </small> para mas informacion.</br></p>
+            
+        <h4> <a href="#Contenido extra"> Contenido Extra </a> </h4>
+
+        <h2>Algunos lenguajes de programación web: </h2>  
+        
+        <ul> 
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVA SCRIPT</li>
+        </ul>
+
+        <h3> Esto es<b> programar:</b></h3>
+
+        <img src="programacion1.PNG" alt="Programación" title="Programación"> <!--El atributo alt es importante para el CEO-->
+        <video src="Yugi.mp4"controls> </video> 
+        
+        <form>
+            <input type="text" required="">
+            <input type="submit" required="">
+            <input type="email" required="">
+            <input type="week" required="">
+            <input type="radio">
+            <input type="range" min="1" max="5">
+            <input type="reset">
+            <input type="tel">
+            <input type="text">
+            <input type="time">
+            <input type="url"required="">
+            <input type="image">
+            <input type="password">
+            <input type="search">
+            <input type="date">
+            <input type="datetime">
+            <input type="datetime-local">
+            <input type="file">
+            <input type="hidden">
+            <input type="checkbox">
+            <input type="color">
+            <input type="button" value="Botón">
+            <input type="number">
+            <input type="month">
+            <textarea readonly>Debes enviar el formulario uwu </textarea>
+
+        </form>
+
+        <header>
+            <nav>
+                <ul>
+                    <li> <a href="micuenta.html"> Mi Cuenta</a></li>
+                    <li> <a href="Index.html">Inicio</a></li>
+                    <li> <a href="nosotros.html">Nosotros</a></li>
+        
+            
+                </ul>
+            </nav>
+        </header>
+
+        <article>
+            <section>
+                
+                <h1>
+                    El Desarollo Web alcanzó muchos avances en 2021.
+                </h1>
+                <h2>
+                    Este año, el desarrolo web logró muchos avances con las nuevas tecnologias que salieron a lo largo del año.
+                </h2>
+                <p> 
+                    Es normal que con el paso de los años las técnicas o tendencias en desarrollo web comiencen a mutar según las preferencias que tengan los usuarios y los métodos que terminen
+                    siendo más efectivos. Es por esta razón que durante este artículo hablaremos de las distintas tendencias y técnicas que se van a venir desarrollando durante este 2021, para 
+                    que todos aquellos que quieran crear una web o modificar la que tengan, sepan cómo hacerlo.
+                </p>
+            </section>
+        </article>        
+        
+        <footer>
+            <h4>Copyright - Todos los derechos reservados.</h4>
+            <p>Seguinos en nuestras <b>Redes:</b></p>
+            <a href="https://marketingdigital.blog/marketing-digital/desarrollo-web-tendencias/"> Tendencias</a>
+        </footer>
+
+        <!--TABLAS: son columnas y filas donde recopilamos datos de 1 solo tipo, por ejemplo una columna con nombres, otra con apellidos, otra con canal de youtube, etc.-->
+        <!--Con <table> comenzamos una tabla. Con <tr> definimos las filas, para definir los campos con filas usamos <td>.-->
+        <table>
+            <tr>
+                <td><b>Nombre</b></td>
+                <td><b>Apellido</b></td>
+                <td><b>Edad</b></td>
+                <td><b>País</b></td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>Garcia</td>
+                <td>18</td>
+                <td>Italia</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>Martinez</td>
+                <td>24</td>
+                <td>Francia</td>
+            </tr>
+            <tr>
+                <td>Carolina</td>
+                <td>Sanchez</td>
+                <td>20</td>
+                <td>Alemania</td>
+            </tr>
+        </table>
+
+        <aside>
+            <h2 id="Contenido extra"> Este es el contenido extra:</h2>
+
+            <p>
+                Cada año es posible que se creen nuevas tendencias debido a los avances tecnológicos que existen y las distintas variedades de herramientas que se puedan encargar de llevar a 
+                tener un mejor desarrollo de páginas web. Ahora nos basaremos sobre esto para mostrar cada una de las novedades que se esperan en este 2021 y que, sin duda, debes tenerlos en 
+                cuenta para poder destacar y tener un mayor alcance en el mercado.
+            </p>
+        </aside>
+
+
+    </body>
+
+</html>         
+
